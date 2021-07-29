@@ -44,3 +44,12 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Virtual Environment
+/env
+
+# Browser support
+.browserslistrc
+
+# Editor configuration
+.editorconfig
