@@ -12,7 +12,6 @@
 }
 
 .search-form{
-    width: 100%;
     max-width: 75rem;
     margin: 0 auto;
 }
@@ -28,11 +27,11 @@
 .search-input {
     margin-left: 1rem;
     padding: 0.7rem;
-    width: 20rem;
+    width: 45rem;
     border-top-left-radius: 0.3rem;
     border-bottom-left-radius: 0.3rem;
     outline: none;
-    border: none;
+    border: 0.07rem solid #bb0000;
     background-color: #fafafa;
 }
 
@@ -44,6 +43,7 @@
     border-left: 0.07rem solid rgba(0, 0, 0, 0.3);
     border-top-right-radius: 0.3rem;
     border-bottom-right-radius: 0.3rem;
+    border: 0.07rem solid #bb0000;
     color: #fafafa;
     font-weight: 700;
     transition-duration: 0.3s;

@@ -1,5 +1,15 @@
+.logo {
+  margin-top: 0.9rem;
+}
+
 .logo-image {
     height: 2.5rem;
     width: 2.5rem;
-    margin: 1rem 0.6rem 1rem 0.6rem;
+    margin: 0.6rem 0.6rem 1rem 2rem;
   }
+
+.logo-name {
+  color: #bb0000;
+  padding-top: 2rem;
+}
+
