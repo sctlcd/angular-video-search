@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LogoComponent } from './search/components/logo/logo.component';
 import { SearchBarComponent } from './search/containers/search-bar/search-bar.component';
 import { SearchInputComponent } from './search/components/search-input/search-input.component';
+import { SearchListComponent } from './search/components/search-list/search-list.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SearchInputComponent } from './search/components/search-input/search-in
     AppComponent,
     LogoComponent,
     SearchInputComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    SearchListComponent
   ],
   imports: [
     HttpClientModule,
