@@ -12,9 +12,9 @@ export class SearchService {
   private API_URL = 'https://www.googleapis.com/youtube/v3/search';
   private API_TOKEN = 'YOUR_API_KEY';
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
-  getVideos(query: string): Observable <any> {
+  getVideos(query: string): Observable<any> {
     const url = `${this.API_URL}?q=${query}&key=${this.API_TOKEN}&part=snippet&type=video&maxResults=10`;
     return this.http.get(url)
       .pipe(
