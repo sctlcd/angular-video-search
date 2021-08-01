@@ -45,8 +45,9 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# Angular Environment variable
-/src/environments/*
+# Angular Environment Variable
+/src/environments/environment.prod.ts
+/src/environments/environment.ts
 
 # Virtual Environment
 /env
