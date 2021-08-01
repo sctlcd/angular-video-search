@@ -46,7 +46,8 @@ testem.log
 Thumbs.db
 
 # Angular Environment Variable
-/src/environment/*
+/src/environments/environment.prod.ts
+/src/environments/environment.ts
 
 # Virtual Environment
 /env
