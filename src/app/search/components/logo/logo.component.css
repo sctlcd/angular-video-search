@@ -12,6 +12,11 @@
 .logo-name {
   color: #bb0000;
   display: inline;
-  padding-left: 0rem;
+}
+
+@media only screen and (max-width: 576px) {
+      .logo-name {
+        font-size: 24px;
+      }
 }
 
