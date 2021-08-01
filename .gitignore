@@ -60,3 +60,8 @@ Thumbs.db
 
 .env
 
+# Firebase deployment Files
+.firebase
+.github
+.firebaserc
+firebase.json
