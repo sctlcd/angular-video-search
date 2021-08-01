@@ -19,3 +19,7 @@
     background-color: rgba(0, 0, 0, 0.72);
     color: #fafafa;
 }
+
+.ui.action.input:not([class*="left action"])>input:focus {
+    border-right-color: #bb0000;
+  }
