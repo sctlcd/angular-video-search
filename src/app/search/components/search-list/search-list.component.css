@@ -1,0 +1,11 @@
+.ui.card, .ui.cards>.card {
+    background: #fafafa;
+}
+
+.ui.red.button, .ui.red.buttons .button {
+    color: #fafafa;
+}
+
+.search-list-container {
+    margin-top: 3rem;
+}
