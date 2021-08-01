@@ -8,17 +8,13 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-
 export class SearchService {
   apiUrl: string;
   apiKey: string;
 
-  // private API_URL = 'https://www.googleapis.com/youtube/v3/search';
-  // private YOUTUBE_API_KEY = 'YOUTUBE_API_KEY';
-
   constructor(private http: HttpClient) { 
-    this.apiUrl = environment.API_URL;
-    this.apiKey = environment.API_KEY;
+    this.apiUrl = environment.YOUTUBE_API_URL;
+    this.apiKey = environment.YOUTUBE_API_KEY;
   }
 
   getVideos(query: string): Observable<any> {

@@ -11,7 +11,7 @@ const targetPath = isProduction
    ? `./src/environments/environment.prod.ts`
    : `./src/environments/environment.ts`;
 
-if (!process.env.API_KEY) {
+if (!process.env.YOUTUBE_API_KEY) {
       console.error('All the required environment variables were not provided!');
   process.exit(-1);
 }
@@ -21,8 +21,8 @@ if (!process.env.API_KEY) {
 const environmentFileContent = `
 export const environment = {
    production: ${isProduction},
-   API_URL: "${process.env.API_URL}",
-   API_KEY: "${process.env.API_KEY}"
+   YOUTUBE_API_URL: "${process.env.YOUTUBE_API_URL}",
+   YOUTUBE_API_KEY: "${process.env.YOUTUBE_API_KEY}"
 };
 `;
 
