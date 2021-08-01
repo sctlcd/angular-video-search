@@ -1,0 +1,8 @@
+.ui.centered {
+    margin: 0 auto;
+}
+
+.ui.centered.no-video-found-container,
+.loader-container {
+    margin: 5rem;
+}

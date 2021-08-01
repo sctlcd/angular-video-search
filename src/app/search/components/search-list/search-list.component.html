@@ -1,20 +1,20 @@
 <div class="search-list-container">
-  <div class="ui four column centered grid">
+  <div class="ui three column centered stackable doubling grid container">
     <div class="column" *ngFor="let video of videos">
       <div class="ui card centered">
-        <div class="image">
-          <img [src]="video.thumbnail">
+        <div class="ui image large">
+          <img class="ui image"[src]="video.thumbnail">
         </div>
         <div class="content">
-          <a class="header" style="margin: 1em 0 1em 0;">{{ video.title }}</a>
+          <a class="header">{{ video.title?.slice(0,27) }}...</a>
           <div class="meta">
-            <span class="date" style="font-weight: bolder;">
-              <a [href]="video.channelUrl" target="_blank">{{ video.channelTitle }}</a>
+            <span class="date">
+              <a [href]="video.channelUrl" target="_blank">{{ video.channelTitle?.slice(0,20) }}...</a>
             </span>
-            <span class="ui right floated date" style="font-weight: bolder;">{{ video.publishedAt | date:'mediumDate' }}</span>
+            <span class="ui right floated date">{{ video.publishedAt | date:'mediumDate' }}</span>
           </div>
           <div class="description">
-            {{ video.description?.slice(0,50) }}...
+            {{ video.description?.slice(0,35) }}...
           </div>
         </div>
         <a [href]="video.videoUrl" target="_blank" class="extra content">
