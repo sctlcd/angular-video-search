@@ -45,7 +45,11 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# Virtual Environment
+# Angular Environment variable
+/src/environments/environment.prod.ts
+/src/environments/environment.ts 
+
+# # Virtual Environment
 /env
 
 # Browser support
@@ -53,3 +57,5 @@ Thumbs.db
 
 # Editor configuration
 .editorconfig
+
+.env
