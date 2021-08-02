@@ -1,4 +1,4 @@
-# [Angular Video Search](https://sctlcd-angular-video-search.web.app)
+# [Angular Video Search Engine](https://sctlcd-angular-video-search.web.app)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.
 
@@ -38,7 +38,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     npm install -g @angular/cli@11.2.14
     ```
 
-2. Click on the repository called [Angular Video Search](https://github.com/sctlcd/angular-video-search)
+2. Click on the repository called [Angular Video Search Engine](https://github.com/sctlcd/angular-video-search-engine)
 3. Along the top bar, find the “clone or download” button.
 4. Here you have the option to clone by HTTPS or SSH.
 5. Once you have chose your desired option, then click the copy icon next to the URL.
@@ -46,13 +46,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 7. Ensure you are in the correct directory which you want to copy the code into. If not, change the directory.
 8. In the terminal, write 
     ````
-    $ git clone https://github.com/sctlcd/angular-video-search.git
+    $ git clone https://github.com/sctlcd/angular-video-search-engine.git
     ````
 9. Press the enter button and your clone will be created.
 
 ### Deployment - Live Website
 
-[Angular Video Search](https://sctlcd-angular-video-search.web.app) live website is currently deployed on [Firebase](https://firebase.google.com/) using the master branch on GitHub. Once you have the project setup locally, you can proceed to deploy it remotely.
+[Angular Video Search Engine](https://sctlcd-angular-video-search.web.app) live website is currently deployed on [Firebase](https://firebase.google.com/) using the master branch on GitHub. Once you have the project setup locally, you can proceed to deploy it remotely.
 
 1. Setup Basic Angular Project
 
