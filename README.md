@@ -52,7 +52,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### Deployment - Live Website
 
-[Angular Video Search](https://github.com/sctlcd/angular-video-search) live website is currently deployed on [Firebase](https://firebase.google.com/) using the master branch on GitHub. Once you have the project setup locally, you can proceed to deploy it remotely.
+[Angular Video Search](https://sctlcd-angular-video-search.web.app) live website is currently deployed on [Firebase](https://firebase.google.com/) using the master branch on GitHub. Once you have the project setup locally, you can proceed to deploy it remotely.
 
 1. Setup Basic Angular Project
 
