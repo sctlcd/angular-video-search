@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+// Logo component
 @Component({
   selector: 'logo',
   templateUrl: './logo.component.html',

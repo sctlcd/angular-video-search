@@ -1,0 +1,23 @@
+.logo {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .logo-image {
+      height: 2.5rem;
+      width: 4.7rem;
+      display: inline;
+    }
+  
+  .logo-name {
+    color: #bb0000;
+    display: inline;
+  }
+  
+  @media only screen and (max-width: 576px) {
+        .logo-name {
+          font-size: 24px;
+        }
+  }
+  
+  
