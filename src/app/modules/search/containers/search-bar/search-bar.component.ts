@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { SearchService } from '../../../shared/services/search.service';
-import { Video } from '../../../shared/models/search.interface';
+
+import { SearchService } from '../../../../shared/services/search.service';
+import { Video } from '../../../../shared/models/search.interface';
 
 
+// Search-bar component
 @Component({
   selector: 'searchBar',
   templateUrl: './search-bar.component.html',

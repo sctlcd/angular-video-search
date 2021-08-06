@@ -3,6 +3,7 @@ import { fromEvent } from 'rxjs';
 import { debounceTime, pluck, distinctUntilChanged, filter, map } from 'rxjs/operators';
 
 
+// Search-input component
 @Component({
   selector: 'searchInput',
   templateUrl: './search-input.component.html',
